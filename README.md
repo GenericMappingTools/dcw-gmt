@@ -1,9 +1,9 @@
 # DCW - The Digital Chart of the World for GMT 5 or later
 
-                Version 1.1.4 July 1, 2018
+         Version 1.1.4 July 1, 2018
          Distributed under the Lesser GNU Public License
 
-This is README.TXT for the DCW - The Digital Chart of the World
+This is README.md for the DCW - The Digital Chart of the World
 which is used to produce the gmt-dcw package currently used by
 GMT's pscoast module.  For a description of changes between
 releases, see the ChangeLog file.
