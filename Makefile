@@ -1,12 +1,12 @@
 #	Makefile for DCW Master Data Files
 #
-#	This Makefile helps build the gmt-dcw.nc file from DCW data.
+#	This Makefile helps build the dcw-gmt.nc file from DCW data.
 #	When done, clean out directory with "make spotless".
 #
 #	The following products can be built:
 #
-#	gmt-dcw-<version>.tar.gz	NetCDF file for GMT using netcdf 4
-#	gmt-dcw-<version>.zip		NetCDF file for GMT using netcdf 4 [zip]
+#	dcw-gmt-<version>.tar.gz	NetCDF file for GMT using netcdf 4
+#	dcw-gmt-<version>.zip		NetCDF file for GMT using netcdf 4 [zip]
 #
 #	Normal sequence of events would be:
 #	make build-dcw archive checksum
@@ -49,7 +49,7 @@ help::
 #!
 #!make <target>, where <target> can be:
 #!
-#!build-dcw       : Make the gmt-dcw.nc netCDF file
+#!build-dcw       : Make the dcw-gmt.nc netCDF file
 #!tar-dcw         : Create tarball of DCW for GMT distribution (deflated netCDF-4)
 #!zip-dcw         : Create zipfile of DCW for GMT distribution (deflated netCDF-4)
 #!archive         : Do both tar-dcw and zip-dcw

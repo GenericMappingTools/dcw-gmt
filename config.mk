@@ -1,5 +1,5 @@
 #
-# Configuration for gmt-dcw distribution
+# Configuration for dcw-gmt distribution
 #
 # These are the default settings.  You can override them by supplying your
 # own config.mk file which will take precedence.
