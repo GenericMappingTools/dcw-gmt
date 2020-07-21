@@ -81,7 +81,7 @@ tar-dcw:
 		rm -f $(TAG)-$(DCW_VERSION).tar.gz
 		rm -rf $(TAG)-$(DCW_VERSION)
 		mkdir -p $(TAG)-$(DCW_VERSION)
-		cp -f $(TAG).nc dcw-countries.txt dcw-states.txt COPYING.LESSERv3 COPYINGv3 LICENSE.TXT README.TXT ChangeLog $(TAG)-$(DCW_VERSION)
+		cp -f $(TAG).nc dcw-countries.txt dcw-states.txt LICENSE README.md ChangeLog $(TAG)-$(DCW_VERSION)
 		chmod -R og+r $(TAG)-$(DCW_VERSION)
 		COPYFILE_DISABLE=true $(GNUTAR) --owner 0 --group 0 --mode a=rX,u=rwX -czhvf $(TAG)-$(DCW_VERSION).tar.gz $(TAG)-$(DCW_VERSION)
 		rm -rf $(TAG)-$(DCW_VERSION)
@@ -91,16 +91,14 @@ zip-dcw:
 		echo "make $(TAG)-$(DCW_VERSION).zip"
 		rm -f $(TAG)-$(DCW_VERSION).zip
 		mkdir -p $(TAG)-$(DCW_VERSION)
-		cp -f $(TAG).nc dcw-countries.txt dcw-states.txt COPYING.LESSERv3 COPYINGv3 LICENSE.TXT README.TXT ChangeLog $(TAG)-$(DCW_VERSION)
+		cp -f $(TAG).nc dcw-countries.txt dcw-states.txt LICENSE README.md ChangeLog $(TAG)-$(DCW_VERSION)
 		chmod -R og+r $(TAG)-$(DCW_VERSION)
 		zip -r -9 -q $(TAG)-$(DCW_VERSION).zip $(TAG)-$(DCW_VERSION)/$(TAG).nc
 		zip -r -9 -q -g -l $(TAG)-$(DCW_VERSION).zip \
 			$(TAG)-$(DCW_VERSION)/dcw-countries.txt \
 			$(TAG)-$(DCW_VERSION)/dcw-states.txt \
-			$(TAG)-$(DCW_VERSION)/COPYING.LESSERv3 \
-			$(TAG)-$(DCW_VERSION)/COPYINGv3 \
-			$(TAG)-$(DCW_VERSION)/LICENSE.TXT \
-			$(TAG)-$(DCW_VERSION)/README.TXT \
+			$(TAG)-$(DCW_VERSION)/LICENSE \
+			$(TAG)-$(DCW_VERSION)/README.md \
 			$(TAG)-$(DCW_VERSION)/ChangeLog
 		rm -rf $(TAG)-$(DCW_VERSION)
 		chmod og+r $(TAG)-$(DCW_VERSION).zip

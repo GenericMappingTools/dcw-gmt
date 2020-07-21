@@ -163,9 +163,9 @@ nccopy -k 3 -d 9 -s dcw-gmt.nc.tmp dcw-gmt.nc  # deflate netcdf-4 file
 rm -f dcw-gmt.nc.tmp
 echo ""
 if [ ! -f dcw-gmt.nc ]; then
-   rm -f data.cdl dim.cdl var.cdl xyformat.awk t.lis var.lis BB.txt tmp.txt this.txt
+   rm -f data.cdl dim.cdl var.cdl xyformat.awk t.lis var.lis BB.txt tmp.txt this.txt bad.txt
    exit 1
 else
-   rm -f data.cdl dim.cdl var.cdl xyformat.awk t.lis var.lis BB.txt tmp.txt this.txt
+   rm -f data.cdl dim.cdl var.cdl xyformat.awk t.lis var.lis BB.txt tmp.txt this.txt bad.txt
    exit 0
 fi
