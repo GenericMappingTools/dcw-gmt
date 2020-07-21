@@ -162,7 +162,6 @@ ncgen -b -k 3 -o dcw-gmt.nc.tmp -x dcw-gmt.cdl # make netcdf-4 file
 nccopy -k 3 -d 9 -s dcw-gmt.nc.tmp dcw-gmt.nc  # deflate netcdf-4 file
 rm -f dcw-gmt.nc.tmp
 echo ""
-exit
 if [ ! -f dcw-gmt.nc ]; then
    rm -f data.cdl dim.cdl var.cdl xyformat.awk t.lis var.lis BB.txt tmp.txt this.txt
    exit 1
