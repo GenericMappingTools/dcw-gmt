@@ -77,8 +77,14 @@ cat << EOF > xyformat.awk
 			printf ", %s", val
 		k++
 	}
-	if (\$1 == ">")
-		val = 65535
+	if (\$1 == ">") {
+		if (COL == 1)
+			val = 65535
+		else if (substr (\$0,1,5) == "> -Ph")
+			val = 1
+		else
+			val = 0
+	}
 	else
 		val = \$(COL)
 }
