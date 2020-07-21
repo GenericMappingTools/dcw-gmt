@@ -27,6 +27,10 @@
 # since gmt command may enforce closure while awk does not...
 #
 # Paul Wessel, Jun 2018.
+#
+# Update July 2020 PW: The 65535 65535 flag for start of segment has be
+# changed to 65535 and 0|1 to flag polygon holes (1).  This only applies
+# to South AFrica and Italy who have enclaved countries inside them.
 
 control_c()
 # run if user hits control-c
@@ -57,8 +61,13 @@ awk '{print substr($1,8)}' t.lis | sed -e 'sB/BBg' > var.lis
 
 cat << EOF > xyformat.awk
 {
-	if (NR == 1) { 
-		printf "\t%s = 65535", name
+	if (NR == 1) {
+		if (COL == 1)
+			printf "\t%s = 65535", name
+		else if (substr (\$0,1,5) == "> -Ph")
+			printf "\t%s = 1", name
+		else
+			printf "\t%s = 0", name
 		k = 1
 	}
 	else if (NR > 2) { 
