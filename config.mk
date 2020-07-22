@@ -6,7 +6,8 @@
 # Paul Wessel, July 2020
 
 # DCW data version to be released:
-DCW_VERSION	= 1.1.5
+GMT_VERSION	= 6.1.1
+DCW_VERSION	= 1.2.0
 DCW_DATE	= 2020-AUG-01
 DCW_FTPSITE	= ftp.soest.hawaii.edu:/export/ftp1/ftp/pub/dcw
 GMT_FTPSITE	= ftp.soest.hawaii.edu:/export/ftp1/ftp/pub/gmt

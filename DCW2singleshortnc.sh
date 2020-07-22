@@ -41,6 +41,7 @@ control_c()
 }
 
 VERSION=$1
+GMTVERSION=$2
 DATE=`grep DCW_DATE config.mk | awk '{print $NF}'`
 if [ "X$DATE" = "X" ]; then
 	DATE=`date +%Y-%b-%d`
@@ -104,6 +105,7 @@ cat <<- EOF > var.cdl
 		:title = "DCW-GMT - The Digital Chart of the World for the Generic Mapping Tools";
 		:source = "Processed by the GMT Team, $DATE";
 		:version = "$VERSION";
+		:gmtversion = "$GMTVERSION";
 EOF
 cat <<- EOF > data.cdl
 	data:
