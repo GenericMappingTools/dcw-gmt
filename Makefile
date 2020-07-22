@@ -122,4 +122,4 @@ fig:
 build-dcw:	$(TAG).nc
 
 $(TAG).nc:
-		time sh DCW2singleshortnc.sh $(DCW_VERSION)
+		time sh DCW2singleshortnc.sh $(DCW_VERSION) $(GMT_VERSION)
