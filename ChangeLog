@@ -2,6 +2,10 @@
         Contains changes made to the data files under dcw-gmt/orig etc
 -----------------------------------------------------------------------------------------
 
+2020-07-20	pwessel
+		Add polygon holes for South Africa and Italy. Update file format
+		to handle polygon holes.  Will require GMT >= 6.1.1.
+
 2018-06-28	pwessel
 		Fixed more occasional longitude excursions due to bad processing.
 		
