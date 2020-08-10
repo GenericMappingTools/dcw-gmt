@@ -3,7 +3,7 @@
 #
 # These are the default settings.  You can override them by supplying your
 # own config.mk file which will take precedence.
-# Paul Wessel, August 2020
+# Paul Wessel, July 2020
 
 # DCW data version to be released:
 GMT_VERSION	= 6.1.1
