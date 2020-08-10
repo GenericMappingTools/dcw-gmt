@@ -3,7 +3,7 @@
 -----------------------------------------------------------------------------------------
 
 2020-08-10	pwessel
-		Rename Chines provinces from numerical to 2-character code per https://en.wikipedia.org/wiki/ISO_3166-2:CN.
+		Rename Chinese provinces from numerical to 2-character code per https://en.wikipedia.org/wiki/ISO_3166-2:CN.
 
 2020-07-20	pwessel
 		Add polygon holes for South Africa and Italy. Update file format
