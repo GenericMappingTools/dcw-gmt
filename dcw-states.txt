@@ -131,40 +131,40 @@ US MP Northern Mariana Islands
 US PR Puerto Rico
 US UM United States Minor Outlying Islands
 US VI Virgin Islands, U.S.
-CN 11 Beijing
-CN 50 Chongqing
-CN 31 Shanghai
-CN 12 Tianjin
-CN 34 Anhui
-CN 35 Fujian
-CN 62 Gansu
-CN 44 Guangdong
-CN 52 Guizhou
-CN 46 Hainan
-CN 13 Hebei
-CN 23 Heilongjiang
-CN 41 Henan
-CN 42 Hubei
-CN 43 Hunan
-CN 32 Jiangsu
-CN 36 Jiangxi
-CN 22 Jilin
-CN 21 Liaoning
-CN 63 Qinghai
-CN 61 Shaanxi
-CN 37 Shandong
-CN 14 Shanxi
-CN 51 Sichuan
-CN 71 Taiwan
-CN 53 Yunnan
-CN 33 Zhejiang
-CN 45 Guangxi
-CN 15 Nei Mongol
-CN 64 Ningxia
-CN 65 Xinjiang
-CN 54 Xizang
-CN 91 Xianggang (Hong Kong)
-CN 92 Aomen (Macao)
+CN BJ Beijing
+CN CQ Chongqing
+CN SH Shanghai
+CN TJ Tianjin
+CN AH Anhui
+CN FJ Fujian
+CN GS Gansu
+CN GD Guangdong
+CN GZ Guizhou
+CN HI Hainan
+CN HE Hebei
+CN HL Heilongjiang
+CN HA Henan
+CN HB Hubei
+CN HN Hunan
+CN JS Jiangsu
+CN JX Jiangxi
+CN JL Jilin
+CN LN Liaoning
+CN QH Qinghai
+CN SN Shaanxi
+CN SD Shandong
+CN SX Shanxi
+CN SC Sichuan
+CN TW Taiwan
+CN YN Yunnan
+CN ZJ Zhejiang
+CN GX Guangxi
+CN NM Nei Mongol
+CN NX Ningxia
+CN XJ Xinjiang
+CN XZ Xizang
+CN HK Xianggang (Hong Kong)
+CN MO Aomen (Macao)
 IN AP Andhra Pradesh
 IN AR Arunachal Pradesh
 IN AS Assam
