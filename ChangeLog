@@ -2,6 +2,9 @@
         Contains changes made to the data files under dcw-gmt/orig etc
 -----------------------------------------------------------------------------------------
 
+2020-08-10	pwessel
+		Rename Chinese provinces from numerical to 2-character code per https://en.wikipedia.org/wiki/ISO_3166-2:CN.
+
 2020-07-20	pwessel
 		Add polygon holes for South Africa and Italy. Update file format
 		to handle polygon holes.  Will require GMT >= 6.1.1.  This will be DCW 2.0.0.
