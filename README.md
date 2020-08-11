@@ -60,6 +60,29 @@ configuration file [config.mk](config.mk), then run:
 
 When done, clean out the directory with `make spotless`.
 
+## Adding new country or state boundaries
+
+To add new countries:
+
+1. obtain ascii data
+2. determine [ISO 2-char country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) *XX*
+   and name file *XX.txt*
+3. determine which continent *ZZ* it belongs to and place in *ZZ* directory
+4. add new entry in `dcw-countries.txt` in alphabetical position on *XX*
+
+To add new state boundaries
+
+1. obtain ascii data
+2. determine [ISO 2-char country code]((https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)) *XX*
+   and [state code](https://en.wikipedia.org/wiki/ISO_3166-2) *YY* and name file *YY.txt*
+3. determine which continent *ZZ* it belongs to and place in *ZZ/YY* directory
+4. add new entry in `dcw-states.txt` in alphabetical position on *XX*, then *YY*
+
+To remove countries or states:
+
+1. remove the data file
+2. remove the corresponding entry in `dcw-countries.txt` or `dcw-states.txt`
+
 ## License
 
 The project is distributed under the
