@@ -26,7 +26,7 @@ TAG	= dcw-gmt
 
 help::
 		@grep '^#!' Makefile | cut -c3-
-#!-------------------- MAKE HELP FOR GSHHS+WDBII --------------------
+#!-------------------- MAKE HELP FOR DCW --------------------
 #!
 #!make <target>, where <target> can be:
 #!
@@ -94,7 +94,7 @@ place-dcw:
 		scp ChangeLog /Volumes/MacNutRAID/UH/RESEARCH/CVSPROJECTS/www/dcw/ChangeLog.txt
 
 fig:
-		dcw-figure.sh
+		time sh dcw-figure.sh
 
 #-------------------------------------------------------------------------------
 #	Data activities
