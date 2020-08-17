@@ -15,25 +15,6 @@
 #
 #	Update Date:	2-JAN-2019
 #
-#
-# NOTES:
-#	1. To add new countries:
-#	   a) obtain ascii data
-#	   b) determine ISO 2-char code XX and name file XX.txt
-#	   c) determine which continent ZZ it belongs to and place in ZZ dir
-#	   d) add to svn with svn add ZZ/XX.dat
-#	   e) add new entry in dcw-countries.txt in alphabetical position on XX. 
-#	2. To add new state boundaries
-#	   a) obtain ascii data
-#	   b) determine ISO 2-char country code XX and state code YY and name file YY.txt
-#	   c) determine which continent ZZ it belongs to and place in ZZ/YY dir
-#	   d) add to svn with svn add ZZ/YY/XX.dat
-#	   e) add new entry in dcw-states.txt in alphabetical position on XX, then YY.
-#	3. To remove countries or states:
-#	   a) remove from svn with svn remove <path to file>
-#	   b) remove the corresponding entry in dcw-countries.txt or dcw-states.txt
-#	4. After svn operations, make sure to commit with svn commit -m "short explanation"
-#
 #-------------------------------------------------------------------------------
 #	!! STOP EDITING HERE, THE REST IS FIXED !!
 #-------------------------------------------------------------------------------
@@ -45,7 +26,7 @@ TAG	= dcw-gmt
 
 help::
 		@grep '^#!' Makefile | cut -c3-
-#!-------------------- MAKE HELP FOR GSHHS+WDBII --------------------
+#!-------------------- MAKE HELP FOR DCW --------------------
 #!
 #!make <target>, where <target> can be:
 #!
@@ -113,7 +94,7 @@ place-dcw:
 		scp ChangeLog /Volumes/MacNutRAID/UH/RESEARCH/CVSPROJECTS/www/dcw/ChangeLog.txt
 
 fig:
-		dcw-figure.sh
+		time sh dcw-figure.sh
 
 #-------------------------------------------------------------------------------
 #	Data activities
