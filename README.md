@@ -4,7 +4,8 @@
 ![GitHub](https://img.shields.io/github/license/GenericMappingTools/dcw-gmt)
 
 This repository contains the data and scripts that maintain and build
-the dcw-gmt package used by **GMT 5 or later**.
+the dcw-gmt package used by **GMT 5 or later**.  **Note**: DCW 2.0.0
+requires GMT 6.1.1 or later.
 
 ## About
 
