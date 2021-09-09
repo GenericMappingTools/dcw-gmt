@@ -94,7 +94,7 @@ place-dcw:
 		scp ChangeLog /Volumes/MacNutRAID/UH/RESEARCH/CVSPROJECTS/www/dcw/ChangeLog.txt
 
 fig:
-		time sh dcw-figure.sh
+		time bash dcw-figure.sh
 
 #-------------------------------------------------------------------------------
 #	Data activities
@@ -103,4 +103,4 @@ fig:
 build-dcw:	$(TAG).nc
 
 $(TAG).nc:
-		time sh DCW2singleshortnc.sh $(DCW_VERSION) $(GMT_VERSION)
+		time bash DCW2singleshortnc.sh $(DCW_VERSION) $(GMT_VERSION)
