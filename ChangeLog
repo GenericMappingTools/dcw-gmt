@@ -2,6 +2,12 @@
         Contains changes made to the data files under dcw-gmt/orig etc
 -----------------------------------------------------------------------------------------
 
+2020-09-09      esteban82
+	        New 2.0.1. Fix some names (North Macedonia, Eswatini, Cabo Verde,
+		Brunei Darussalam, Northern Mariana Islands, Wallis and Futuna, 
+		Antigua and Barbuda, Falkland (Malvinas), Suriname, Trinidad and Tobago).
+		Fix poligons of NO and SJ (Svalbard and Jan Mayen).
+
 2021-04-07	pwessel
 		New 2.0.0 tar/zip files placed on server.
 
