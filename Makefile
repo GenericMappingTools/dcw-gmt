@@ -53,7 +53,7 @@ clean:
 all:		build-dcw tar-dcw zip-dcw checksum
 
 checksum:
-		md5 -r $(TAG)-$(DCW_VERSION).tar.gz | awk '{printf "Update $(TAG).info with the new check sum: %s\n", $$1}'
+		md5sum -r $(TAG)-$(DCW_VERSION).tar.gz | awk '{printf "Update $(TAG).info with the new check sum: %s\n", $$1}'
 
 archive:	tar-dcw zip-dcw
 
