@@ -13,7 +13,7 @@ AF CF Central African Republic
 AF CG Congo
 AF CI Côte d'Ivoire
 AF CM Cameroon
-AF CV Cape Verde
+AF CV Cabo Verde
 AF DJ Djibouti
 AF DZ Algeria
 AF EG Egypt
@@ -51,7 +51,7 @@ AF SN Senegal
 AF SO Somalia
 AF SS South Sudan
 AF ST Sao Tome and Principe
-AF SZ Swaziland
+AF SZ Eswatini
 AF TD Chad
 AF TF French Southern Territories
 AF TG Togo
@@ -69,7 +69,7 @@ AS AM Armenia
 AS AZ Azerbaijan
 AS BD Bangladesh
 AS BH Bahrain
-AS BN Brunei
+AS BN Brunei Darussalam
 AS BT Bhutan
 AS CN China
 AS CX Christmas Island
@@ -182,7 +182,7 @@ OC FM Micronesia
 OC GU Guam
 OC KI Kiribati
 OC MH Marshall Islands
-OC MP Mariana
+OC MP Northern Mariana Islands
 OC NC New Caledonia
 OC NF Norfolk Island
 OC NR Nauru
@@ -198,9 +198,9 @@ OC TO Tonga
 OC TV Tuvalu
 OC UM United States Minor Outlying Islands
 OC VU Vanuatu
-OC WF Wallis
+OC WF Wallis and Futuna
 OC WS Samoa
-SA AG Antigua
+SA AG Antigua and Barbuda
 SA AI Anguilla
 SA AR Argentina
 SA AW Aruba
@@ -220,7 +220,7 @@ SA CW Curaçao
 SA DM Dominica
 SA DO Dominican Republic
 SA EC Ecuador
-SA FK Falkland Islands
+SA FK Falkland Islands (Malvinas)
 SA GD Grenada
 SA GF French Guiana
 SA GP Guadeloupe
@@ -242,11 +242,11 @@ SA PE Peru
 SA PM Saint Pierre and Miquelon
 SA PR Puerto Rico
 SA PY Paraguay
-SA SR Surinam
+SA SR Suriname
 SA SV El Salvador
 SA SX Sint Maarten
 SA TC Turks and Caicos
-SA TT Trinidad
+SA TT Trinidad and Tobago
 SA UY Uruguay
 SA VC Saint Vincent and the Grenadines
 SA VE Venezuela
