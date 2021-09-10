@@ -114,7 +114,6 @@ AS TL Timor-Leste
 AS TM Turkmenistan
 AS TR Turkey
 AS TW Taiwan
-AS UA Ukraine
 AS UZ Uzbekistan
 AS VN Viet Nam
 AS YE Yemen
@@ -168,6 +167,7 @@ EU SI Slovenia
 EU SJ Svalbard and Jan Mayen
 EU SK Slovakia
 EU SM San Marino
+EU UA Ukraine
 EU VA Holy See (Vatican City State)
 EU XK Kosovo
 NA CA Canada
