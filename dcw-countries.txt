@@ -170,9 +170,46 @@ EU SM San Marino
 EU UA Ukraine
 EU VA Holy See (Vatican City State)
 EU XK Kosovo
+NA AG Antigua and Barbuda
+NA AI Anguilla
+NA AW Aruba
+NA BB Barbados
+NA BL Saint Barthélemy
+NA BM Bermuda
+NA BQ Bonaire, Sint Eustatius and Saba
+NA BS Bahamas
+NA BZ Belize
 NA CA Canada
+NA CR Costa Rica
+NA CU Cuba
+NA CW Curaçao
+NA DM Dominica
+NA DO Dominican Republic
+NA GD Grenada
+NA GP Guadeloupe
+NA GT Guatemala
+NA HN Honduras
+NA HT Haiti
+NA JM Jamaica
+NA KN Saint Kitts and Nevis
+NA KY Cayman Islands
+NA LC Saint Lucia
+NA MF Saint Martin (French part)
+NA MQ Martinique
+NA MS Montserrat
 NA MX Mexico
+NA NI Nicaragua
+NA PA Panama
+NA PM Saint Pierre and Miquelon
+NA PR Puerto Rico
+NA SV El Salvador
+NA SX Sint Maarten
+NA TC Turks and Caicos
+NA TT Trinidad and Tobago
 NA US United States
+NA VC Saint Vincent and the Grenadines
+NA VG British Virgin Islands
+NA VI Virgin Islands
 OC AS American Samoa
 OC AU Australia
 OC CC Cocos (Keeling) Islands
@@ -200,55 +237,18 @@ OC UM United States Minor Outlying Islands
 OC VU Vanuatu
 OC WF Wallis and Futuna
 OC WS Samoa
-SA AG Antigua and Barbuda
-SA AI Anguilla
 SA AR Argentina
-SA AW Aruba
-SA BB Barbados
-SA BL Saint Barthélemy
-SA BM Bermuda
 SA BO Bolivia
-SA BQ Bonaire, Sint Eustatius and Saba
 SA BR Brazil
-SA BS Bahamas
-SA BZ Belize
 SA CL Chile
 SA CO Colombia
-SA CR Costa Rica
-SA CU Cuba
-SA CW Curaçao
-SA DM Dominica
-SA DO Dominican Republic
 SA EC Ecuador
 SA FK Falkland Islands (Malvinas)
-SA GD Grenada
 SA GF French Guiana
-SA GP Guadeloupe
 SA GS South Georgia and the South Sandwich Islands
-SA GT Guatemala
 SA GY Guyana
-SA HN Honduras
-SA HT Haiti
-SA JM Jamaica
-SA KN Saint Kitts and Nevis
-SA KY Cayman Islands
-SA LC Saint Lucia
-SA MF Saint Martin (French part)
-SA MQ Martinique
-SA MS Montserrat
-SA NI Nicaragua
-SA PA Panama
 SA PE Peru
-SA PM Saint Pierre and Miquelon
-SA PR Puerto Rico
 SA PY Paraguay
 SA SR Suriname
-SA SV El Salvador
-SA SX Sint Maarten
-SA TC Turks and Caicos
-SA TT Trinidad and Tobago
 SA UY Uruguay
-SA VC Saint Vincent and the Grenadines
 SA VE Venezuela
-SA VG British Virgin Islands
-SA VI Virgin Islands
