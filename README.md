@@ -7,6 +7,11 @@ This repository contains the data and scripts that maintain and build
 the dcw-gmt package used by **GMT 5 or later**.  **Note**: DCW 2.0.0
 requires GMT 6.1.1 or later.
 
+This README contains the documentation for DCW. For information about building
+and modifying DCW, please refer to the [contributing guide](CONTRIBUTING.md).
+
+![Global map of the DCW-GMT polygons](https://docs.generic-mapping-tools.org/6.2/_images/dcw-figure.png)
+
 ## About
 
 The Digital Chart of the World is a comprehensive 1:1,000,000 scale
@@ -15,18 +20,11 @@ of pilots and air crews in medium- and low-altitude en route navigation
 and to support military operational planning, intelligence briefings,
 and other needs. For basic background information about DCW, see the
 [Wikipedia entry](http://en.wikipedia.org/wiki/Digital_Chart_of_the_World).
-The raw files used to build `dcw-gmt.nc` came from the Princeton University
-Digital Map and Geospatial Information Center, accessible via website
-http://www.princeton.edu/~geolib/gis/dcw.html; however, the DCW access
-seems to have disappeared.  Other sites with DCW data include the GeoCommunity
-at http://data.geocomm.com/readme/dcw/dcw.html.
 
-The dcw-gmt version has converted the (at present) 523 individual
-polygon files to a single netCDF-4 file and compressed the data by
-using rescaled short integer positioning. Note that many of these,
-especially state boundaries for China, Russia, India, Argentina were
-not in the original DCW but have been added later from other sources,
-such as from http://www.gadm.org.
+DCW-GMT is an enhancement to DCW in a few ways:
+
+1. It contains more state boundaries (the largest 8 countries are now represented).
+2. The data have been reformatted to save space and are distributed as a single deflated netCDF-4 file.
 
 ## Download
 
@@ -36,53 +34,39 @@ or from the [GMT main site](https://www.generic-mapping-tools.org/download/).
 
 ## Usage
 
+DCW-GMT is an optional install for GMT and its wrappers.  If you did install it
+then you can access the DCW data for plotting or analysis via GMT's
+[coast](https://docs.generic-mapping-tools.org/latest/coast.html) module. You
+can also use the [ISO 2-character codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
+for countries as a way to specify map domains via the **-R** option.  For
+instance, to make a map showing France with a region rounded to the nearest 2
+degrees in longitude and latitude, you can run:
+
+	`gmt coast -RFR+r2 -Glightgray -B -pdf france`
+
+If in addition you want to paint the landmass of France blue, you can run:
+
+	`gmt coast -RFR+r2 -Glightgray -B -EFR+gblue -pdf france`
+
+To access states without countries you must use the *country.state* syntax. See
+the [coast](https://docs.generic-mapping-tools.org/latest/coast.html)
+documentation for details.  For instance, to make a map of the US and show Texas
+and Mississippi as red states, try:
+
+	`gmt coast -RUS+r2 -Glightgray -B -EUS.TX,US.MS+gred -pdf us`
+
+## Notes
+
 If you are building GMT from source then you should set the parameter
 **DCW_ROOT** in the *cmake/ConfigUser.cmake* to point to the directory where
-dcw-gmt.nc has been placed.  If you add this file later you can always
-place it in your user **~/.gmt** directory or set the **DIR_DCW** parameter
-in your *gmt.conf* settings.
-
-Refer to the [GMT documentation](https://docs.generic-mapping-tools.org/latest/datasets/dcw.html) for more details about how to use the data in GMT.
+*dcw-gmt.nc* has been placed.  If you add this file after GMT installation
+was completed then you can always have GMT find it by placing it in your
+user *~/.gmt* directory or by setting the **DIR_DCW** parameter in the
+*gmt.conf* settings.
 
 ## Changelog
 
 The detailed changelog is available [here](ChangeLog).
-
-## Building DCW-GMT
-
-The original data in ASCII format are stored in the `orig` directory.
-
-To build the `dcw-gmt.nc` file from the DCW data, you need to first edit the
-configuration file [config.mk](config.mk), then run:
-
-	make build-dcw		# Make the dcw-gmt.nc netCDF file
-	make archive		# Create tarball and zipfile of DCW for GMT distribution
-	make checksum		# Compute MD5 checksum for the tarball
-
-When done, clean out the directory with `make spotless`.
-
-## Adding new country or state boundaries
-
-To add new countries:
-
-1. obtain ascii data
-2. determine [ISO 2-char country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) *XX*
-   and name file *XX.txt*
-3. determine which continent *ZZ* it belongs to and place in *ZZ* directory
-4. add new entry in `dcw-countries.txt` in alphabetical position on *XX*
-
-To add new state boundaries
-
-1. obtain ascii data
-2. determine [ISO 2-char country code]((https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)) *XX*
-   and [state code](https://en.wikipedia.org/wiki/ISO_3166-2) *YY* and name file *YY.txt*
-3. determine which continent *ZZ* it belongs to and place in *ZZ/YY* directory
-4. add new entry in `dcw-states.txt` in alphabetical position on *XX*, then *YY*
-
-To remove countries or states:
-
-1. remove the data file
-2. remove the corresponding entry in `dcw-countries.txt` or `dcw-states.txt`
 
 ## License
 
