@@ -42,18 +42,18 @@ for countries as a way to specify map domains via the **-R** option.  For
 instance, to make a map showing France with a region rounded to the nearest 2
 degrees in longitude and latitude, you can run:
 
-	`gmt coast -RFR+r2 -Glightgray -B -pdf france`
+	gmt coast -RFR+r2 -Glightgray -B -pdf france
 
 If in addition you want to paint the landmass of France blue, you can run:
 
-	`gmt coast -RFR+r2 -Glightgray -B -EFR+gblue -pdf france`
+	gmt coast -RFR+r2 -Glightgray -B -EFR+gblue -pdf france
 
 To access states without countries you must use the *country.state* syntax. See
 the [coast](https://docs.generic-mapping-tools.org/latest/coast.html)
 documentation for details.  For instance, to make a map of the US and show Texas
 and Mississippi as red states, try:
 
-	`gmt coast -RUS+r2 -Glightgray -B -EUS.TX,US.MS+gred -pdf us`
+	gmt coast -RUS+r2 -Glightgray -B -EUS.TX,US.MS+gred -pdf us
 
 ## Notes
 
