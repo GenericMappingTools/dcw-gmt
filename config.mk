@@ -6,7 +6,7 @@
 # Paul Wessel, Nov 2021
 
 # DCW data version to be released:
-GMT_VERSION	= 6.3.0
+GMT_VERSION	= 6.1.1
 DCW_VERSION	= 2.0.1
 DCW_DATE	= 2021-NOV-18
 DCW_FTPSITE	= ftp.soest.hawaii.edu:/export/ftp1/ftp/pub/dcw
