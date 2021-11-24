@@ -51,7 +51,7 @@ spotless:	clean
 clean:
 		rm -f $(TAG).log
 
-all:		build-dcw tar-dcw zip-dcw checksum
+all:		build-dcw tar-dcw zip-dcw checksum fig
 
 checksum:
 		md5sum -r $(TAG)-$(DCW_VERSION).tar.gz | awk '{printf "Update $(TAG).info with the new check sum: %s\n", $$1}'
