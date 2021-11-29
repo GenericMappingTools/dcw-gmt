@@ -26,5 +26,5 @@ if [ -f dcw-gmt-${DCW_VERSION}.tar.gz ]; then
 	rm -rf dcw-gmt-${DCW_VERSION}
 fi
 # Self-destruct
-#rm -f /tmp/dcw-update.sh
+rm -f /tmp/dcw-update.sh
 EOF
