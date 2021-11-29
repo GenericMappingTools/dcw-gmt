@@ -15,6 +15,6 @@ GMT_FTPSITE	= ftp.soest.hawaii.edu:/export/ftp1/ftp/pub/gmt
 DCW_WEBSITE	= imina.soest.hawaii.edu:/export/imina2/httpd/htdocs/pwessel/dcw
 # GMT dataserver update directory
 GMTSERVER_URL = oceania.generic-mapping-tools.org
-GMTSERVER_DIR = /export/gmtserver/gmt/data/geo2/dcw
+GMTSERVER_DIR = /export/gmtserver/gmt/data/geography/dcw
 # Point to GNU version of tar:
 GNUTAR      = $(shell which gnutar || which gtar || which tar)
