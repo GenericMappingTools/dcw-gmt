@@ -96,7 +96,7 @@ place-dcw:
 
 update-dataserver:
 		# 1. Build a helper executable bash script called /tmp/dcw-update.sh
-		build-serverupdate-script.sh $(DCW_VERSION) $(GMTSERVER_DIR)
+		bash build-serverupdate-script.sh $(DCW_VERSION) $(GMTSERVER_DIR)
 		# 2. Copy script to server's tmp dir:
 		scp /tmp/dcw-update.sh ${GMTSERVER_URL}:/tmp
 		# 3. Run the dcw-update.sh script
