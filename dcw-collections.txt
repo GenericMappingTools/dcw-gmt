@@ -1,4 +1,4 @@
-# Data from United Nations geoscheme M49
+# Data from United Nations geoscheme M49 (https://en.wikipedia.org/wiki/UN_M49)
 # Northern Africa
 tag: UN015 Northern Africa
 DZ,EG,LY,MA,SD,TN,EH
