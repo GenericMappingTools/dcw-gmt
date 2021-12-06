@@ -1,7 +1,11 @@
 # Data from United Nations geoscheme M49 (https://en.wikipedia.org/wiki/UN_M49)
 # Northern Africa
+tag: UN002 Africa
+list: DZ,EG,LY,MA,SD,TN,EH,IO,BI,KM,DJ,ER,ET,TF,KE,MG,MW,MU,YT,MZ,RE,RW,SC,SO,SS,TZ,UG,ZM,ZW,AO,CM,CF,TD,CG,CD,GQ,GA,ST,BW,SZ,LS,NA,ZA,BJ,BF,CV,CI,GM,GH,GN,GW,LR,ML,MR,NE,NG,SH,SN,SL,TG
 tag: UN015 Northern Africa
 list: DZ,EG,LY,MA,SD,TN,EH
+tag: UN202 Sub-Saharan Africa
+list: IO,BI,KM,DJ,ER,ET,TF,KE,MG,MW,MU,YT,MZ,RE,RW,SC,SO,SS,TZ,UG,ZM,ZW,AO,CM,CF,TD,CG,CD,GQ,GA,ST,BW,SZ,LS,NA,ZA,BJ,BF,CV,CI,GM,GH,GN,GW,LR,ML,MR,NE,NG,SH,SN,SL,TG
 # Eastern Africa
 tag: UN014 Eastern Africa
 list: IO,BI,KM,DJ,ER,ET,TF,KE,MG,MW,MU,YT,MZ,RE,RW,SC,SO,SS,TZ,UG,ZM,ZW
@@ -14,6 +18,10 @@ list: BW,SZ,LS,NA,ZA
 # Western Africa
 tag: UN011 Western Africa
 list: BJ,BF,CV,CI,GM,GH,GN,GW,LR,ML,MR,NE,NG,SH,SN,SL,TG
+tag: UN019 Americas
+list: AI,AG,AW,BS,BB,BQ,KY,CU,CW,DM,DO,GD,GP,HT,JM,MQ,MS,PR,BL,KN,LC,MF,VC,SX,TT,TC,VG,VI,BZ,CR,SV,GT,HN,MX,NI,PA,AR,BO,BV,BR,CL,CO,EC,FK,GF,GY,PY,PE,GS,SR,UY,VE,BM,CA,GL,PM,US
+tag: UN419 Latin America and the Caribbean
+list: AI,AG,AW,BS,BB,BQ,KY,CU,CW,DM,DO,GD,GP,HT,JM,MQ,MS,PR,BL,KN,LC,MF,VC,SX,TT,TC,VG,VI,BZ,CR,SV,GT,HN,MX,NI,PA,AR,BO,BV,BR,CL,CO,EC,FK,GF,GY,PY,PE,GS,SR,UY,VE
 # Caribbean
 tag: UN029 Caribbean
 list: AI,AG,AW,BS,BB,BQ,KY,CU,CW,DM,DO,GD,GP,HT,JM,MQ,MS,PR,BL,KN,LC,MF,VC,SX,TT,TC,VG,VI
@@ -26,6 +34,10 @@ list: AR,BO,BV,BR,CL,CO,EC,FK,GF,GY,PY,PE,GS,SR,UY,VE
 # Northern America
 tag: UN021 Northern America
 list: BM,CA,GL,PM,US
+tag: UN010 Antarctica
+list: AQ
+tag: UN142 Asia
+list: KZ,KG,TJ,TM,UZ,CN,HK,JP,KP,KR,MO,MN,TW,BN,KH,ID,LA,MY,MM,PH,SG,TH,TL,VN,AF,BD,BT,IN,IR,MV,NP,PK,LK,AM,AZ,BH,CY,GE,IQ,IL,JO,KW,LB,OM,PS,QA,SA,SY,TR,AE,YE
 # Central Asia
 tag: UN143 Central Asia
 list: KZ,KG,TJ,TM,UZ
@@ -41,6 +53,8 @@ list: AF,BD,BT,IN,IR,MV,NP,PK,LK
 # Western Asia
 tag: UN145 Western Asia
 list: AM,AZ,BH,CY,GE,IQ,IL,JO,KW,LB,OM,PS,QA,SA,SY,TR,AE,YE
+tag: UN150 Europe
+list: BY,BG,CZ,HU,MD,PL,RO,RU,SK,UA,AX,DK,EE,FO,FI,GG,IS,IE,IM,JE,LV,LT,NO,SJ,SE,GB,AL,AD,BA,HR,GI,GR,VA,IT,MT,ME,MK,PT,SM,RS,SI,ES,AT,BE,FR,DE,LI,LU,MC,NL,CH
 # Eastern Europe
 tag: UN151 Eastern Europe
 list: BY,BG,CZ,HU,MD,PL,RO,RU,SK,UA
@@ -53,6 +67,8 @@ list: AL,AD,BA,HR,GI,GR,VA,IT,MT,ME,MK,PT,SM,RS,SI,ES
 # Western Europe
 tag: UN155 Western Europe
 list: AT,BE,FR,DE,LI,LU,MC,NL,CH
+tag: UN009 Oceania
+list: AU,CX,CC,HM,NZ,NF,FJ,NC,PG,SB,VU,GU,KI,MH,FM,NR,MP,PW,UM,AS,CK,PF,NU,PN,WS,TK,TO,TV,WF
 # Australia and New Zealanda
 tag: UN053  Australia and New Zealanda
 list: AU,CX,CC,HM,NZ,NF
