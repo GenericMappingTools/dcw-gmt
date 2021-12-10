@@ -4,7 +4,7 @@
 ps=dcw-figure.ps
 here=$(pwd)
 grep -v '^#' dcw-countries.txt > /tmp/$$.C.txt
-n_poly=$(gmt info -Fi -o2 /tmp/$$.C.txt)
+n_poly=$(cat /tmp/t | wc -l | awk '{printf "%d\n", $1}')
 gmt makecpt -T0/$n_poly/1 -Ccategorical -N > /tmp/$$.cpt
 paste /tmp/$$.cpt /tmp/$$.C.txt > /tmp/$$.txt
 grep -v '^#' dcw-states.txt | awk '{printf "%s.%s\n", $1, $2}' > /tmp/$$.S.txt
