@@ -2,6 +2,9 @@
         Contains changes made to the data files under dcw-gmt/orig etc
 -----------------------------------------------------------------------------------------
 
+2021-12-14	esteban82
+		Fix bug in Russia (RU.txt). Two polygon that go trough 180 were joint.
+
 2021-12-07	esteban82
 		Add Novaya Zembla and Franz Josef Land in RU.txt. Fix Vaygach Island also 
 		in RU.txt.
