@@ -7,10 +7,14 @@
 
 # DCW data version to be released:
 GMT_VERSION	= 6.1.1
+# Tarball placement for releases
 DCW_VERSION	= 2.0.2
 DCW_DATE	= 2021-DEC-15
 DCW_FTPSITE	= ftp.soest.hawaii.edu:/export/ftp1/ftp/pub/dcw
 GMT_FTPSITE	= ftp.soest.hawaii.edu:/export/ftp1/ftp/pub/gmt
 DCW_WEBSITE	= imina.soest.hawaii.edu:/export/imina2/httpd/htdocs/pwessel/dcw
+# GMT dataserver update directory
+GMTSERVER_URL = oceania.generic-mapping-tools.org
+GMTSERVER_DIR = /export/gmtserver/gmt/data/geography/dcw
 # Point to GNU version of tar:
 GNUTAR      = $(shell which gnutar || which gtar || which tar)
