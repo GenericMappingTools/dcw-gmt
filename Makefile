@@ -45,7 +45,7 @@ help::
 #!
 
 spotless:	clean
-		rm -rf $(TAG).cdl $(TAG).nc $(TAG)-$(DCW_VERSION).zip $(TAG)-$(DCW_VERSION).tar.* dcw-figure.p* gmt.history gmt.conf
+		rm -rf $(TAG)-$(DCW_VERSION) $(TAG).cdl $(TAG).nc $(TAG)-$(DCW_VERSION).zip $(TAG)-$(DCW_VERSION).tar.* dcw-figure.p* gmt.history gmt.conf
 
 clean:
 		rm -f $(TAG).log
@@ -53,7 +53,7 @@ clean:
 all:		build-dcw tar-dcw zip-dcw checksum fig
 
 checksum:
-		md5sum -r $(TAG)-$(DCW_VERSION).tar.gz | awk '{printf "Update $(TAG).info with the new check sum: %s\n", $$1}'
+		md5sum $(TAG)-$(DCW_VERSION).tar.gz | awk '{printf "Update $(TAG).info with the new check sum: %s\n", $$1}'
 
 archive:	tar-dcw zip-dcw
 
