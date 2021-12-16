@@ -2,6 +2,9 @@
         Contains changes made to the data files under dcw-gmt/orig etc
 -----------------------------------------------------------------------------------------
 
+2021-12-16	pwessel
+		Fix bug. Move Borkum island from NL to DE. Issue #46.
+
 2021-12-14	pwessel
 		Fix bugs in Chukotka and Fiji. Issue #40.
 
