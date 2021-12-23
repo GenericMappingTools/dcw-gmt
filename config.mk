@@ -3,14 +3,18 @@
 #
 # These are the default settings.  You can override them by supplying your
 # own config.mk file which will take precedence.
-# Paul Wessel, Nov 2021
+# Paul Wessel, Dec 2021
 
 # DCW data version to be released:
 GMT_VERSION	= 6.1.1
-DCW_VERSION	= 2.0.1
-DCW_DATE	= 2021-NOV-18
+# Tarball placement for releases
+DCW_VERSION	= 2.0.2
+DCW_DATE	= 2021-DEC-15
 DCW_FTPSITE	= ftp.soest.hawaii.edu:/export/ftp1/ftp/pub/dcw
 GMT_FTPSITE	= ftp.soest.hawaii.edu:/export/ftp1/ftp/pub/gmt
 DCW_WEBSITE	= imina.soest.hawaii.edu:/export/imina2/httpd/htdocs/pwessel/dcw
+# GMT dataserver update directory
+GMTSERVER_URL = oceania.generic-mapping-tools.org
+GMTSERVER_DIR = /export/gmtserver/gmt/data/geography/dcw
 # Point to GNU version of tar:
 GNUTAR      = $(shell which gnutar || which gtar || which tar)

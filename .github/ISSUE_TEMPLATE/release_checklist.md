@@ -25,5 +25,6 @@ assignees: ''
 - [ ] Create a new [GitHub release](https://github.com/GenericMappingTools/dcw-gmt/releases).
   - [ ] Upload the tarbell.
   - [ ] Add a description to the release.
-  - [ ] Add the MD5 checksum to the release notes.
+  - [ ] Add the MD5 checksum and sha256sum to the release notes.
 - [ ] Run `update-dataserver` to update the files on the GMT server using the GitHub release (@pwessel or @meghanrjones).
+- [ ] Update the dcw version in the [downloads](https://github.com/GenericMappingTools/website/blob/master/download/index.rst) section of the website.

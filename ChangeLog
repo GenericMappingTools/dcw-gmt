@@ -2,6 +2,18 @@
         Contains changes made to the data files under dcw-gmt/orig etc
 -----------------------------------------------------------------------------------------
 
+2021-12-16	pwessel
+		Fix bug. Move Borkum island from NL to DE. Issue #46.
+
+2021-12-15	pwessel
+		New 2.0.2 tar/zip files placed on server.
+		
+2021-12-14	pwessel
+		Fix bugs in Chukotka and Fiji. Issue #40.
+
+2021-12-14	esteban82
+		Fix bug in Russia (RU.txt). Two polygon that go trough 180 were joint. Issue #40.
+
 2021-12-07	esteban82
 		Add Novaya Zembla and Franz Josef Land in RU.txt. Fix Vaygach Island also 
 		in RU.txt.
@@ -18,8 +30,6 @@
 		and Moscow Krai. Update data of Argentina and its provinces with dara from
 		the Instituto Geografico Nacional (IGN). Fix bug in Paraíba state (Brazil). 
 		
-		
-
 2021-04-07	pwessel
 		New 2.0.0 tar/zip files placed on server.
 
