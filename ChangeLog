@@ -2,8 +2,11 @@
         Contains changes made to the data files under dcw-gmt/orig etc
 -----------------------------------------------------------------------------------------
 
-2021-12-23 esteban82
-	Reformat original files using consistent format and white-space.
+2022-01-07	esteban82
+		Finalize new dcw-collections.txt with 244 named regions, seas, etc.
+
+2021-12-23	esteban82
+		Reformat original files using consistent format and white-space.
 
 2021-12-16	pwessel
 		Fix bug. Move Borkum island from NL to DE. Issue #46.
