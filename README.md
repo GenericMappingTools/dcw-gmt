@@ -55,14 +55,18 @@ and Mississippi as red states, try:
 
 	gmt coast -RUS+r2 -Glightgray -B -EUS.TX,US.MS+gred -pdf us
 
-From versions 2.1.0 and GMT 6.4.0 onwards you can also use named regions, seas and lakes using their names.
-We offer 37 geographic regions based on [Natural Earth][https://www.naturalearthdata.com] at scale 1:110, 161 named
-seas, islands and archipelagoes based on [IHO53][https://iho.int/uploads/user/pubs/standards/s-53/S_53_JAN16_E.pdf],
-and 46 collections of countries; 30 are from [UN49][https://unstats.un.org/unsd/methodology/m49/] and the rest were
-obtained from from [Wikipedia][https://en.wikipedia.org/wiki/Administrative_division]. These allow you to make maps
-matching those regions, such as
+From versions 2.1.0 and GMT 6.4.0 onwards you can also use named regions (continents, seas, etc) using their names.
+We offer 37 geographic regions based on [Natural Earth][https://www.naturalearthdata.com] at scale 1:110, 104 seas 
+named (102 based on [IHO53][https://iho.int/uploads/user/pubs/standards/s-53/S_53_JAN16_E.pdf] most of them taken from 
+[Fourcy and Lorvelec (2013)](https://www6.rennes.inrae.fr/ese_eng/HRMLOS)) and 57 lakes, islands and archipelagoes.
+You can also use 46 collections of countries; 30 are from [UN49][https://unstats.un.org/unsd/methodology/m49/] 
+and the rest were obtained from from [Wikipedia][https://en.wikipedia.org/wiki/Subregion]. 
+These allow you to make maps matching those regions, such as
 
 	gmt coast -RScandinavia -Glightgray -B -pdf Scandinavia
+	gmt coast -RIHO28 -Glightgray -B -pdf MediterraneanSea
+	gmt coast -RSAM -Glightgray -B -pdf SouthAmerica
+	gmt coast -RHIMA -Glightgray -B -pdf Himalayas
 
 ## Notes
 
