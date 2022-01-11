@@ -411,7 +411,7 @@ tag: AZRI Azores Islands
 region: -31.267/-24.73/36.927/39.727
 tag: CNRI Canary Islands
 region: -18.168/-13.333/27.636/29.415
-tag: GLPI Galápagos Islands
+tag: GLPI Galapagos Islands
 region: -92.012/-89.24/-1.407/1.666
 tag: MDRI Madeira Archipelago
 region: -17.264/-15.853/30.026/33.125
