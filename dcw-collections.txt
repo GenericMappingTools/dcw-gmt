@@ -1,63 +1,63 @@
 # Data from United Nations geoscheme M49 (https://en.wikipedia.org/wiki/UN_M49)
-tag: UN002 Africa
+tag: UN002 UN Africa
 list: DZ,EG,LY,MA,SD,TN,EH,IO,BI,KM,DJ,ER,ET,TF,KE,MG,MW,MU,YT,MZ,RE,RW,SC,SO,SS,TZ,UG,ZM,ZW,AO,CM,CF,TD,CG,CD,GQ,GA,ST,BW,SZ,LS,NA,ZA,BJ,BF,CV,CI,GM,GH,GN,GW,LR,ML,MR,NE,NG,SH,SN,SL,TG
-tag: UN015 Northern Africa
+tag: UN015 UN Northern Africa
 list: DZ,EG,LY,MA,SD,TN,EH
-tag: UN202 Sub-Saharan Africa
+tag: UN202 UN Sub-Saharan Africa
 list: IO,BI,KM,DJ,ER,ET,TF,KE,MG,MW,MU,YT,MZ,RE,RW,SC,SO,SS,TZ,UG,ZM,ZW,AO,CM,CF,TD,CG,CD,GQ,GA,ST,BW,SZ,LS,NA,ZA,BJ,BF,CV,CI,GM,GH,GN,GW,LR,ML,MR,NE,NG,SH,SN,SL,TG
-tag: UN014 Eastern Africa
+tag: UN014 UN Eastern Africa
 list: IO,BI,KM,DJ,ER,ET,TF,KE,MG,MW,MU,YT,MZ,RE,RW,SC,SO,SS,TZ,UG,ZM,ZW
-tag: UN017 Middle Africa
+tag: UN017 UN Middle Africa
 list: AO,CM,CF,TD,CG,CD,GQ,GA,ST
-tag: UN018 Southern Africa
+tag: UN018 UN Southern Africa
 list: BW,SZ,LS,NA,ZA
-tag: UN011 Western Africa
+tag: UN011 UN Western Africa
 list: BJ,BF,CV,CI,GM,GH,GN,GW,LR,ML,MR,NE,NG,SH,SN,SL,TG
-tag: UN019 Americas
+tag: UN019 UN Americas
 list: AI,AG,AW,BS,BB,BQ,KY,CU,CW,DM,DO,GD,GP,HT,JM,MQ,MS,PR,BL,KN,LC,MF,VC,SX,TT,TC,VG,VI,BZ,CR,SV,GT,HN,MX,NI,PA,AR,BO,BV,BR,CL,CO,EC,FK,GF,GY,PY,PE,GS,SR,UY,VE,BM,CA,GL,PM,US
-tag: UN419 Latin America and the Caribbean
+tag: UN419 UN Latin America and the Caribbean
 list: AI,AG,AW,BS,BB,BQ,KY,CU,CW,DM,DO,GD,GP,HT,JM,MQ,MS,PR,BL,KN,LC,MF,VC,SX,TT,TC,VG,VI,BZ,CR,SV,GT,HN,MX,NI,PA,AR,BO,BV,BR,CL,CO,EC,FK,GF,GY,PY,PE,GS,SR,UY,VE
-tag: UN029 Caribbean
+tag: UN029 UN Caribbean
 list: AI,AG,AW,BS,BB,BQ,KY,CU,CW,DM,DO,GD,GP,HT,JM,MQ,MS,PR,BL,KN,LC,MF,VC,SX,TT,TC,VG,VI
-tag: UN013 Central America
+tag: UN013 UN Central America
 list: BZ,CR,SV,GT,HN,MX,NI,PA
-tag: UN005 South America
+tag: UN005 UN South America
 list: AR,BO,BV,BR,CL,CO,EC,FK,GF,GY,PY,PE,GS,SR,UY,VE
 tag: UN021 Northern America
 list: BM,CA,GL,PM,US
-tag: UN010 Antarctica
+tag: UN010 UN Antarctica
 list: AQ
-tag: UN142 Asia
+tag: UN142 UN Asia
 list: KZ,KG,TJ,TM,UZ,CN,HK,JP,KP,KR,MO,MN,TW,BN,KH,ID,LA,MY,MM,PH,SG,TH,TL,VN,AF,BD,BT,IN,IR,MV,NP,PK,LK,AM,AZ,BH,CY,GE,IQ,IL,JO,KW,LB,OM,PS,QA,SA,SY,TR,AE,YE
-tag: UN143 Central Asia
+tag: UN143 UN Central Asia
 list: KZ,KG,TJ,TM,UZ
-tag: UN030 Eastern Asia
+tag: UN030 UN Eastern Asia
 list: CN,HK,JP,KP,KR,MO,MN,TW
-tag: UN035 South-eastern Asia
+tag: UN035 UN South-eastern Asia
 list: BN,KH,ID,LA,MY,MM,PH,SG,TH,TL,VN
-tag: UN034 Southern Asia
+tag: UN034 UN Southern Asia
 list: AF,BD,BT,IN,IR,MV,NP,PK,LK
-tag: UN145 Western Asia
+tag: UN145 UN Western Asia
 list: AM,AZ,BH,CY,GE,IQ,IL,JO,KW,LB,OM,PS,QA,SA,SY,TR,AE,YE
 tag: UN150 UN Europe
 list: BY,BG,CZ,HU,MD,PL,RO,RU,SK,UA,AX,DK,EE,FO,FI,GG,IS,IE,IM,JE,LV,LT,NO,SJ,SE,GB,AL,AD,BA,HR,GI,GR,VA,IT,MT,ME,MK,PT,SM,RS,SI,ES,AT,BE,FR,DE,LI,LU,MC,NL,CH
-tag: UN151 Eastern Europe
+tag: UN151 UN Eastern Europe
 list: BY,BG,CZ,HU,MD,PL,RO,RU,SK,UA
-tag: UN154 Northern Europe
+tag: UN154 UN Northern Europe
 list: AX,DK,EE,FO,FI,GG,IS,IE,IM,JE,LV,LT,NO,SJ,SE,GB
-tag: UN039 Southern Europe
+tag: UN039 UN Southern Europe
 list: AL,AD,BA,HR,GI,GR,VA,IT,MT,ME,MK,PT,SM,RS,SI,ES
-tag: UN155 Western Europe
+tag: UN155 UN Western Europe
 list: AT,BE,FR,DE,LI,LU,MC,NL,CH
-tag: UN009 Oceania
+tag: UN009 UN Oceania
 list: AU,CX,CC,HM,NZ,NF,FJ,NC,PG,SB,VU,GU,KI,MH,FM,NR,MP,PW,UM,AS,CK,PF,NU,PN,WS,TK,TO,TV,WF
-tag: UN053 Australia and New Zealanda
+tag: UN053 UN Australia and New Zealanda
 list: AU,CX,CC,HM,NZ,NF
-tag: UN054 Melanesia
+tag: UN054 UN Melanesia
 list: FJ,NC,PG,SB,VU
-tag: UN057 Micronesia
+tag: UN057 UN Micronesia
 list: GU,KI,MH,FM,NR,MP,PW,UM
-tag: UN061 Polynesia
+tag: UN061 UN Polynesia
 list: AS,CK,PF,NU,PN,WS,TK,TO,TV,WF
 # Others lists from wikipedia
 tag: STHC Southern Cone
@@ -95,11 +95,11 @@ list: EG,SD,BH,IQ,JO,KW,LB,OM,PS,QA,SA,SY,AE,YE,DZ,LY,MA,MR,TN,EH,DJ,SO
 # List from Limits of oceans and seas (1953) of International Hydrographic Organization, IHO.
 tag: IHO1 Baltic Sea
 region: 9.8408/30.3471/53.6016/65.9071
-tag: IHO1a Gulf of Bothnia
+tag: IHO1A Gulf of Bothnia
 region: 17.0391/25.5092/59.6203/65.9071
-tag: IHO1b Gulf of Finland
+tag: IHO1B Gulf of Finland
 region: 22.8971/30.3471/59.2154/60.7428
-tag: IHO1c Gulf of Riga
+tag: IHO1C Gulf of Riga
 region: 21.7686/24.5891/56.9611/59.228
 tag: IHO2 Kattegat, Sund and Belts
 region: 9.4208/13.0691/54.6339/58.3496
@@ -167,23 +167,23 @@ tag: IHO28 Mediterranean Sea
 region: -6.0319/36.2093/30.2662/45.7946
 tag: IHO28-1 Mediterranean Sea Western Basin
 region: -6.0319/12.4233/35.0729/44.4271
-tag: IHO28a Strait of Gibraltar
+tag: IHO28A Strait of Gibraltar
 region: -6.0319/-5.2934/35.7787/36.1871
-tag: IHO28b Alboran Sea
+tag: IHO28B Alboran Sea
 region: -5.358/-1.1929/35.0729/36.8404
-tag: IHO28c Balearic
+tag: IHO28C Balearic
 region: -0.3413/4.2896/38.6491/41.8921
-tag: IHO28d Ligurian Sea
+tag: IHO28D Ligurian Sea
 region: 7.5327/9.848/43.0096/44.4271
 tag: IHO28-2 Mediterranean Sea Eastern Basin
 region: 8.6488/36.2093/30.2662/45.7946
-tag: IHO28e Tyrrhenian Sea
+tag: IHO28E Tyrrhenian Sea
 region: 8.6488/16.2213/37.804/44.1096
-tag: IHO28f Ionian Sea
+tag: IHO28F Ionian Sea
 region: 15.0829/23.2254/36.4025/40.5204
-tag: IHO28g Adriatic Sea
+tag: IHO28G Adriatic Sea
 region: 12.1412/20.0178/39.7433/45.7946
-tag: IHO28h Aegean Sea
+tag: IHO28H Aegean Sea
 region: 22.527/28.3354/35.1104/41.0121
 tag: IHO29 Sea of Marmara
 region: 26.1768/29.9396/40.0007/41.2289
@@ -221,43 +221,43 @@ tag: IHO45 Indian Ocean
 region: 20/146.8363/-70.4284/10.4371
 tag: IHO45A Mozambique Channel
 region: 32.4987/49.2412/-26.8459/-10.5048
-tag: IHO46a Malacca Strait
+tag: IHO46A Malacca Strait
 region: 95.4545/103.5111/0.8082/8.4087
-tag: IHO46b Singapore Strait
+tag: IHO46B Singapore Strait
 region: 103.342/104.5704/1.0737/1.4295
 tag: IHO47 Gulf of Thailand
 region: 99.1404/105.115/6.1678/13.6088
 tag: IHO48 East Indian Archipelago
 region: 104.5163/142.1638/-17.7271/13.4417
-tag: IHO48a Sulu Sea
+tag: IHO48A Sulu Sea
 region: 116.7363/123.4288/5.0187/13.4417
-tag: IHO48b Celebes Sea
+tag: IHO48B Celebes Sea
 region: 117.0137/125.6035/0.8079/7.8529
-tag: IHO48c Molukka Sea
+tag: IHO48C Molukka Sea
 region: 123.3129/128.5627/-1.8449/4.4804
-tag: IHO48d Gulf of Tomini
+tag: IHO48D Gulf of Tomini
 region: 120.0021/123.411/-1.433/0.5512
-tag: IHO48e Halmahera Sea
+tag: IHO48E Halmahera Sea
 region: 127.5428/130.9321/-1.643/2.4925
-tag: IHO48f Ceram Sea
+tag: IHO48F Ceram Sea
 region: 125.9183/133.9979/-5.2785/-1.1774
-tag: IHO48g Banda Sea
+tag: IHO48G Banda Sea
 region: 120.4683/133.1452/-8.9054/-0.8363
-tag: IHO48h Arafura Sea
+tag: IHO48H Arafura Sea
 region: 130.7663/142.1638/-17.7271/-2.9104
-tag: IHO48i Timor Sea
+tag: IHO48I Timor Sea
 region: 122.8457/132.7629/-15.5171/-8.1735
-tag: IHO48j Flores Sea
+tag: IHO48J Flores Sea
 region: 117.1665/122.9429/-8.7454/-5.5112
-tag: IHO48k Gulf of Boni
+tag: IHO48K Gulf of Boni
 region: 120.1854/121.9048/-5.6198/-2.6212
-tag: IHO48l Bali Sea
+tag: IHO48L Bali Sea
 region: 114.3379/117.1844/-9.0078/-7.009
-tag: IHO48m Makassar Strait
+tag: IHO48M Makassar Strait
 region: 115.9646/120.8354/-5.5991/1.3186
-tag: IHO48n Java Sea
+tag: IHO48N Java Sea
 region: 104.5163/119.4785/-7.8117/-2.5761
-tag: IHO48o Savu Sea
+tag: IHO48O Savu Sea
 region: 118.4595/125/-10.9374/-8.2612
 tag: IHO49 South China Sea
 region: 102.2449/122.1645/-3.2323/25.6196
