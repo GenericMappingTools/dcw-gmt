@@ -95,7 +95,6 @@ AS LB Lebanon
 AS LK Sri Lanka
 AS MM Myanmar
 AS MN Mongolia
-AS MO Macao
 AS MV Maldives
 AS MY Malaysia
 AS NP Nepal
@@ -113,7 +112,6 @@ AS TJ Tajikistan
 AS TL Timor-Leste
 AS TM Turkmenistan
 AS TR Turkey
-AS TW Taiwan
 AS UZ Uzbekistan
 AS VN Viet Nam
 AS YE Yemen

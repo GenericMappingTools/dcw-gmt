@@ -2,8 +2,11 @@
         Contains changes made to the data files under dcw-gmt/orig etc
 -----------------------------------------------------------------------------------------
 
-2022-01-07	pwessel
+2022-01-16	pwessel
 		New 2.1.0 released.
+		
+2022-01-15	esteban82
+		Delete MO and TW as countries. Issue #55.
 
 2022-01-07	esteban82
 		Finalize new dcw-collections.txt with 244 named regions, seas, etc.
