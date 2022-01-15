@@ -23,7 +23,7 @@ assignees: ''
 - [ ] Run `place-gmt` to place the tarball on the gmt ftp (@meghanrjones or @pwessel).
 - [ ] Run `place-dcw` to place the zip file on the dcw ftp and website (@pwessel).
 - [ ] Create a new [GitHub release](https://github.com/GenericMappingTools/dcw-gmt/releases).
-  - [ ] Upload the tarbell.
+  - [ ] Upload the tarball.
   - [ ] Add a description to the release.
   - [ ] Add the MD5 checksum and sha256sum to the release notes.
 - [ ] Run `update-dataserver` to update the files on the GMT server using the GitHub release (@pwessel or @meghanrjones).
