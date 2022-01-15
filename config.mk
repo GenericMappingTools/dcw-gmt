@@ -9,7 +9,7 @@
 GMT_VERSION	= 6.1.1
 # Tarball placement for releases
 DCW_VERSION	= 2.1.0
-DCW_DATE	= 2022-JAN-7
+DCW_DATE	= 2022-JAN-16
 DCW_FTPSITE	= ftp.soest.hawaii.edu:/export/ftp1/ftp/pub/dcw
 GMT_FTPSITE	= ftp.soest.hawaii.edu:/export/ftp1/ftp/pub/gmt
 DCW_WEBSITE	= imina.soest.hawaii.edu:/export/imina2/httpd/htdocs/pwessel/dcw
