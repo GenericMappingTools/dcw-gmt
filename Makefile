@@ -92,8 +92,9 @@ place-gmt:
 place-dcw:
 		scp $(TAG)-$(DCW_VERSION).zip $(TAG)-$(DCW_VERSION).tar.gz $(DCW_FTPSITE)
 		scp $(TAG)-$(DCW_VERSION).zip $(TAG)-$(DCW_VERSION).tar.gz $(DCW_WEBSITE)
-		scp dcw-figure.png /Volumes/MacNutRAID/UH/RESEARCH/CVSPROJECTS/www/dcw
-		scp ChangeLog /Volumes/MacNutRAID/UH/RESEARCH/CVSPROJECTS/www/dcw/ChangeLog.txt
+		scp dcw-figure.png $(DCW_WEBSITE)
+		scp index.html $(DCW_WEBSITE)
+		scp ChangeLog $(DCW_WEBSITE)/ChangeLog.txt
 
 update-dataserver:
 		# 1. Build a helper executable bash script called /tmp/dcw-update.sh

@@ -1,0 +1,52 @@
+<title>DCW-GMT - The Digital Chart of the World for GMT 6 or later</title>
+<body bgcolor="#f0f0ff">
+<center><h1>DCW-GMT</h1>
+<h2>DCW-GMT - The Digital Chart of the World for GMT 6 or later</h2></center>
+<HR><P>
+<center><img src="dcw-figure.png"><p>
+<h3>Version 2.1.0 Released January 16, 2022</h3>
+<P>DCW-GMT is developed and maintained by<p>
+Paul Wessel, SOEST, University of Hawai'i, Honolulu, HI, USA.<br>
+Federico Esteban, Consejo Nacional de Investigaciones Científicas y Técnicas: Buenos Aires, Argentina.<br>
+Eduardo Suarez, Facultad de Ciencias Astronomicas y Geofisicas - UNLP, Argentina (deceased).
+</center><P>
+The Digital Chart of the World (DCW) is a comprehensive 1:1,000,000 scale
+vector basemap of the world. The charts were designed to meet the needs
+of pilots and air crews in medium-and low-altitude en route navigation
+and to support military operational planning, intelligence briefings,
+and other needs. For basic background information about DCW, see the
+<A HREF="http://en.wikipedia.org/wiki/Digital_Chart_of_the_World"> Wikipedia entry</A>.
+<P>
+DCW-GMT is an enhancement to DCW in a few ways: (1) it contains more state
+boundaries (the largest 8 countries are now represented), and (2) the data have
+been reformatted to save space and are distributed as a single deflated netCDF-4 file.
+The raw files used to build dcw-gmt.nc came from the Princeton University
+Digital Map and Geospatial Information Center, accessible via website
+http://www.princeton.edu/~geolib/gis/dcw.html; however, the DCW access
+seems to have disappeared.  Your best bet for more information is 
+<a href="https://en.wikipedia.org/wiki/Digital_Chart_of_the_World" target="_blank">WikiPedia.</a>
+
+DCW-GMT is released under the
+<a href="http://www.gnu.org/licenses/lgpl.html" target="_blank"> GNU Lesser General Public License.</a><BR>
+<P>
+Notes:
+<OL>
+	<LI>If you are building GMT from source then you should set the parameter
+	DCW_ROOT in the cmake/ConfigUser.cmake to point to the directory where
+	dcw-gmt.nc has been placed.  If you add this file after GMT installation you can always
+	have GMT find it by placing it in your user ~/.gmt directory or setting the DIR_DCW parameter in
+	the gmt.conf settings.
+<HR><P>
+<H2> Availability of DCW-GMT data</H2>
+The latest data files are available below; details on the changes are described in the <a href="ChangeLog.txt">ChangeLog</a>.
+For GMT versions 6.1.1 or later, you may download one of these files via ftp or http:
+<OL>
+	<LI><b>FTP:</b> <a href="ftp://ftp.soest.hawaii.edu/dcw/dcw-gmt-2.1.0.tar.gz"> DCW-GMT polygons for GMT in netCDF 4 format (gzipped tar archive).</a></LI>
+	<LI><b>FTP:</b> <a href="ftp://ftp.soest.hawaii.edu/dcw/dcw-gmt-2.1.0.zip"> DCW-GMT polygons for GMT in netCDF 4 format (zip archive).</a></LI>
+	<LI><b>HTTP:</b> <a href="http://www.soest.hawaii.edu/pwessel/dcw/dcw-gmt-2.1.0.tar.gz"> DCW-GMT polygons for GMT in netCDF 4 format (gzipped tar archive).</a></LI>
+	<LI><b>HTTP:</b> <a href="http://www.soest.hawaii.edu/pwessel/dcw/dcw-gmt-2.1.0.zip"> DCW-GMT polygons for GMT in netCDF 4 format (zip archive).</a></LI>
+</OL>
+<BR>
+<HR>
+<I>Last update January 15, 2022 by Paul Wessel</I>
+</HTML>
