@@ -57,7 +57,7 @@ and Mississippi as red states, try:
 
 From versions 2.1.0 and GMT 6.4.0 onwards you can also use named regions (continents, seas, etc) using their names.
 We offer 37 geographic regions based on [Natural Earth](https://www.naturalearthdata.com) at scale 1:110, 104 seas 
-named (102 based on [IHO1953](https://epic.awi.de/id/eprint/29772/1/IHO1953a.pdf). most of them taken from 
+named (102 based on [IHO1953](https://epic.awi.de/id/eprint/29772/1/IHO1953a.pdf), most of them taken from 
 [Fourcy and Lorvelec (2013)](https://www6.rennes.inrae.fr/ese_eng/HRMLOS)) and 57 lakes, islands and archipelagoes.
 You can also use 46 collections of countries; 30 are from [UN49](https://unstats.un.org/unsd/methodology/m49/) 
 and the rest were obtained from from [Wikipedia](https://en.wikipedia.org/wiki/Subregion). 
