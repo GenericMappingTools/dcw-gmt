@@ -13,7 +13,7 @@
 #
 #	Author:	Paul Wessel, SOEST, U. of Hawaii
 #
-#	Update Date:	2-JAN-2019
+#	Update Date:	18-JAN-2022
 #
 #-------------------------------------------------------------------------------
 #	!! STOP EDITING HERE, THE REST IS FIXED !!
@@ -64,6 +64,7 @@ tar-dcw:
 		rm -rf $(TAG)-$(DCW_VERSION)
 		mkdir -p $(TAG)-$(DCW_VERSION)
 		cp -f $(TAG).nc dcw-collections.txt dcw-countries.txt dcw-states.txt LICENSE README.md ChangeLog $(TAG)-$(DCW_VERSION)
+		echo $(DCW_VERSION) > $(TAG)-$(DCW_VERSION)/VERSION
 		chmod -R og+r $(TAG)-$(DCW_VERSION)
 		COPYFILE_DISABLE=true $(GNUTAR) --owner 0 --group 0 --mode a=rX,u=rwX -czhvf $(TAG)-$(DCW_VERSION).tar.gz $(TAG)-$(DCW_VERSION)
 		rm -rf $(TAG)-$(DCW_VERSION)
@@ -74,6 +75,7 @@ zip-dcw:
 		rm -f $(TAG)-$(DCW_VERSION).zip
 		mkdir -p $(TAG)-$(DCW_VERSION)
 		cp -f $(TAG).nc dcw-collections.txt dcw-countries.txt dcw-states.txt LICENSE README.md ChangeLog $(TAG)-$(DCW_VERSION)
+		echo $(DCW_VERSION) > $(TAG)-$(DCW_VERSION)/VERSION
 		chmod -R og+r $(TAG)-$(DCW_VERSION)
 		zip -r -9 -q $(TAG)-$(DCW_VERSION).zip $(TAG)-$(DCW_VERSION)/$(TAG).nc
 		zip -r -9 -q -g -l $(TAG)-$(DCW_VERSION).zip \
@@ -81,6 +83,7 @@ zip-dcw:
 			$(TAG)-$(DCW_VERSION)/dcw-countries.txt \
 			$(TAG)-$(DCW_VERSION)/dcw-states.txt \
 			$(TAG)-$(DCW_VERSION)/LICENSE \
+			$(TAG)-$(DCW_VERSION)/VERSION \
 			$(TAG)-$(DCW_VERSION)/README.md \
 			$(TAG)-$(DCW_VERSION)/ChangeLog
 		rm -rf $(TAG)-$(DCW_VERSION)
