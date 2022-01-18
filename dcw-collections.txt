@@ -111,7 +111,7 @@ tag: IHO5 Greenland Sea
 region: -36.8807/17.3984/65.0863/83.5812
 tag: IHO6 Norwegian Sea
 region: -13.4975/25.7691/60.8621/76.5628
-tag: IHO7 Barentsz Sea
+tag: IHO7 Barents Sea
 region: 16.5815/68.5558/66.8165/81.827
 tag: IHO8 White Sea
 region: 31.8693/44.5868/63.7814/68.652
