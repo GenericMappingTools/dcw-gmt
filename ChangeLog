@@ -2,6 +2,9 @@
         Contains changes made to the data files under dcw-gmt/orig etc
 -----------------------------------------------------------------------------------------
 
+2022-01-25	esteban82
+		Fix bug in MX. Issue #66.
+
 2022-01-18	pwessel
 		Fix spelling of Barents Sea
 
