@@ -74,7 +74,6 @@ AS BT Bhutan
 AS CN China
 AS CX Christmas Island
 AS GE Georgia
-AS HK Hong Kong
 AS HM Heard Island and McDonald Islands
 AS ID Indonesia
 AS IL Israel
@@ -112,6 +111,7 @@ AS TJ Tajikistan
 AS TL Timor-Leste
 AS TM Turkmenistan
 AS TR Turkey
+AS TW Taiwan
 AS UZ Uzbekistan
 AS VN Viet Nam
 AS YE Yemen
