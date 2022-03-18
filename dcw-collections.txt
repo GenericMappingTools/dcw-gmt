@@ -497,7 +497,7 @@ tag: CRC Continental Costa Rica
 region: 274.049382/277.443941/8.032905/11.216727
 tag: ECC Continental Ecuador
 region: 278.921186/284.815170/-4.998823/1.438945
-tag: PTC Continetal Portugal
+tag: PTC Continental Portugal
 region: -9.496163/-6.183121/36.961179/42.145478
 tag: ESC Continental Spain
 region: -9.290919/4.315019/35.185219/43.791472
