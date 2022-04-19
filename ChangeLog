@@ -2,6 +2,9 @@
         Contains changes made to the data files under dcw-gmt/orig etc
 -----------------------------------------------------------------------------------------
 
+2022-03-18	esteban82
+		Issue #73. Delete HK and add TW in dcw-countries.
+		
 2022-01-25	esteban82
 		Fix bug in MX. Issue #66.
 
