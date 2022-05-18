@@ -4,7 +4,7 @@
 # Script to convert the 324 DCW text polygons to a single nc3 netCDF file.
 # We use ncdeflate.sh to build a compressed nc4 version as well
 # We create variables with the <code>_ prefix, e.g. NO_lon, NO_lat for
-# the Norway polygons.  For the state boundries (e.g., Texas) we create
+# the Norway polygons.  For the state boundaries (e.g., Texas) we create
 # a prefix like USTX_, USHI_, etc.  Each polygon range is scaled to fit 
 # in a short integer so there are attributes with scales and bounding box
 # for each country.
@@ -30,7 +30,7 @@
 #
 # Update July 2020 PW: The 65535 65535 flag for start of segment has be
 # changed to 65535 and 0|1 to flag polygon holes (1).  This only applies
-# to South AFrica and Italy who have enclaved countries inside them.
+# to South Africa and Italy who have enclaved countries inside them.
 
 control_c()
 # run if user hits control-c
