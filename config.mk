@@ -3,13 +3,13 @@
 #
 # These are the default settings.  You can override them by supplying your
 # own config.mk file which will take precedence.
-# Paul Wessel, Jan 2022
+# Paul Wessel, May 2022
 
 # DCW data version to be released:
 GMT_VERSION	= 6.1.1
 # Tarball placement for releases
-DCW_VERSION	= 2.1.0
-DCW_DATE	= 2022-JAN-16
+DCW_VERSION	= 2.1.1
+DCW_DATE	= 2022-MAY-20
 DCW_FTPSITE	= ftp.soest.hawaii.edu:/export/ftp1/ftp/pub/dcw
 GMT_FTPSITE	= ftp.soest.hawaii.edu:/export/ftp1/ftp/pub/gmt
 DCW_WEBSITE	= imina.soest.hawaii.edu:/export/imina2/httpd/htdocs/pwessel/dcw
