@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 # Make a single global figure with DCW-GMT
 
 ps=dcw-figure.ps

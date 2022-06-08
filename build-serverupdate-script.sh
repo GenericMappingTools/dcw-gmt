@@ -10,7 +10,7 @@ GMTSERVER_DIR=$2
 
 # Build a dcw-update.sh script for the data server to execute
 cat << EOF > /tmp/dcw-update.sh
-#!/bin/bash
+#!/usr/bin/env bash
 # Script to be placed on the data server's /tmp directory and executed
 # Extracts files from tarball then replaces existing dcw-update files
 # and deletes itself. Files will reside in ${GMTSERVER_DIR}
