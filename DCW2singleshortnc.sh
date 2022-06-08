@@ -1,11 +1,11 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #	DCW2singleshortnc.sh
 #
 # Script to convert the 324 DCW text polygons to a single nc3 netCDF file.
 # We use ncdeflate.sh to build a compressed nc4 version as well
 # We create variables with the <code>_ prefix, e.g. NO_lon, NO_lat for
 # the Norway polygons.  For the state boundaries (e.g., Texas) we create
-# a prefix like USTX_, USHI_, etc.  Each polygon range is scaled to fit 
+# a prefix like USTX_, USHI_, etc.  Each polygon range is scaled to fit
 # in a short integer so there are attributes with scales and bounding box
 # for each country.
 # PS: Sometimes the west point gets rounded wrong ends up being slightly
@@ -71,7 +71,7 @@ cat << EOF > xyformat.awk
 			printf "\t%s = 0", name
 		k = 1
 	}
-	else if (NR > 2) { 
+	else if (NR > 2) {
 		if ((k % 10) == 0)
 			printf ",\n\t%s", val
 		else
