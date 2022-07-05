@@ -66,7 +66,7 @@ These allow you to make maps matching those regions, such as
 	gmt coast -RScandinavia -Glightgray -B -pdf Scandinavia
 	gmt coast -RIHO28 -Glightgray -B -pdf MediterraneanSea
 	gmt coast -RSAM -Glightgray -B -pdf SouthAmerica
-	gmt coast -RHIMA -Glightgray -B -pdf Himalayas
+	gmt coast -RHMLY -Glightgray -B -pdf Himalayas
 
 ## Notes
 
