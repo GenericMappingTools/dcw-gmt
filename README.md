@@ -5,7 +5,9 @@
 
 This repository contains the data and scripts that maintain and build
 the dcw-gmt package used by **GMT 5 or later**.  **Note**: DCW 2.0.1
-requires GMT 6.1.1 or later.
+requires GMT 6.1.1 or later. Building the DCW netCDF database requires
+the netCDF executables *ncgen* and *nccopy*, usually available in a port
+called *netcdf-bin* or similar (i.e, separate from the netCDF library).
 
 This README contains the documentation for DCW. For information about building
 and modifying DCW, please refer to the [contributing guide](CONTRIBUTING.md).
