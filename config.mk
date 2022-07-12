@@ -8,7 +8,7 @@
 # Minimum required GMT version
 GMT_VERSION	= 6.1.1
 # DCW data version to be released
-DCW_VERSION	= 2.1.1
+DCW_VERSION	= 2.2.0
 DCW_DATE	= 2022-MAY-20
 # Tarball placement for releases
 DCW_FTPSITE	= ftp.soest.hawaii.edu:/export/ftp1/ftp/pub/dcw

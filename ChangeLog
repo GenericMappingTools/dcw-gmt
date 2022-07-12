@@ -2,15 +2,18 @@
         Contains changes made to the data files under dcw-gmt/orig etc
 -----------------------------------------------------------------------------------------
 
+2022-07-12	anbj
+		Add counties of mainland Norway (NO).
+
 2022-05-20	pwessel
 		New 2.1.1 released.
 
 2022-04-06	esteban82
 		Add four continental sectors in dcw-collections. Issue #74
-		
+
 2022-03-18	esteban82
 		Issue #73. Delete HK and add TW in dcw-countries.
-		
+
 2022-01-25	esteban82
 		Fix bug in MX. Issue #66.
 
@@ -19,7 +22,7 @@
 
 2022-01-16	pwessel
 		New 2.1.0 released.
-		
+
 2022-01-15	esteban82
 		Delete MO and TW as countries. Issue #55.
 
@@ -34,7 +37,7 @@
 
 2021-12-15	pwessel
 		New 2.0.2 tar/zip files placed on server.
-		
+
 2021-12-14	pwessel
 		Fix bugs in Chukotka and Fiji. Issue #40.
 
@@ -42,7 +45,7 @@
 		Fix bug in Russia (RU.txt). Two polygon that go trough 180 were joint. Issue #40.
 
 2021-12-07	esteban82
-		Add Novaya Zembla and Franz Josef Land in RU.txt. Fix Vaygach Island also 
+		Add Novaya Zembla and Franz Josef Land in RU.txt. Fix Vaygach Island also
 		in RU.txt.
 
 2021-11-19	pwessel
@@ -50,13 +53,13 @@
 
 2021-09-12      esteban82
 	        New 2.0.1. Fix some names (North Macedonia, Eswatini, Cabo Verde,
-		Brunei Darussalam, Northern Mariana Islands, Wallis and Futuna, 
+		Brunei Darussalam, Northern Mariana Islands, Wallis and Futuna,
 		Antigua and Barbuda, Falkland (Malvinas), Suriname, Trinidad and Tobago).
 		Fix poligons of NO and SJ (Svalbard and Jan Mayen).
-		Add polygon holes for New South Wales (Australia), Krasnodar Krai (Russia) 
+		Add polygon holes for New South Wales (Australia), Krasnodar Krai (Russia)
 		and Moscow Krai. Update data of Argentina and its provinces with dara from
-		the Instituto Geografico Nacional (IGN). Fix bug in Paraíba state (Brazil). 
-		
+		the Instituto Geografico Nacional (IGN). Fix bug in Paraíba state (Brazil).
+
 2021-04-07	pwessel
 		New 2.0.0 tar/zip files placed on server.
 
@@ -69,10 +72,10 @@
 
 2018-06-28	pwessel
 		Fixed more occasional longitude excursions due to bad processing.
-		
+
 2018-01-21	pwessel
 		New 1.1.3 released.
-		
+
 2018-01-20	pwessel
 		Fixed occasional longitude excursions due to bad processing.
 
@@ -242,7 +245,7 @@
 		Deleted Spratly Islands because it's code [SS] conflicts
 		 with South Sudan one.
 		Fixed Brazil. Changed version to 1.0.2.
-		
+
 2013-05-08      pwessel
 		Renamed all *.dat files to *.txt for consistency.  Added dcw-countries.txt
 		and dcw-states.txt to the distribution so GMT can dynamically load the
