@@ -2,6 +2,9 @@
         Contains changes made to the data files under dcw-gmt/orig etc
 -----------------------------------------------------------------------------------------
 
+2022-05-29	esteban82
+		Delete HK and MO in dcw-collections. Issue #93.
+		
 2022-07-12	anbj
 		Add counties of mainland Norway (NO).
 
