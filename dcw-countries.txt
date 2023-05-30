@@ -74,6 +74,7 @@ AS BT Bhutan
 AS CN China
 AS CX Christmas Island
 AS GE Georgia
+AS HK Hong Kong
 AS HM Heard Island and McDonald Islands
 AS ID Indonesia
 AS IL Israel
@@ -94,6 +95,7 @@ AS LB Lebanon
 AS LK Sri Lanka
 AS MM Myanmar
 AS MN Mongolia
+AS MO Macao
 AS MV Maldives
 AS MY Malaysia
 AS NP Nepal
