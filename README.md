@@ -56,6 +56,8 @@ documentation for details.  For instance, to make a map of the US and show Texas
 and Mississippi as red states, try:
 
 	gmt coast -RUS+r2 -Glightgray -B -EUS.TX,US.MS+gred -pdf us
+	
+### DCW Collections	
 
 From versions 2.1.0 and GMT 6.4.0 onwards you can also use named regions (continents, seas, etc) using their names.
 We offer 37 geographic regions based on [Natural Earth](https://www.naturalearthdata.com) at scale 1:110, 104 seas 
@@ -63,6 +65,7 @@ named (102 based on [IHO1953](https://epic.awi.de/id/eprint/29772/1/IHO1953a.pdf
 [Fourcy and Lorvelec (2013)](https://www6.rennes.inrae.fr/ese_eng/HRMLOS)) and 57 lakes, islands and archipelagoes.
 You can also use 46 collections of countries; 30 are from [UN49](https://unstats.un.org/unsd/methodology/m49/) 
 and the rest were obtained from from [Wikipedia](https://en.wikipedia.org/wiki/Subregion). 
+You can see the full list at [dcw-collections.txt](dcw-collections.txt). 
 These allow you to make maps matching those regions, such as
 
 	gmt coast -RScandinavia -Glightgray -B -pdf Scandinavia
