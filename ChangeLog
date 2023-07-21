@@ -2,6 +2,9 @@
         Contains changes made to the data files under dcw-gmt/orig etc
 -----------------------------------------------------------------------------------------
 
+2022-07-21	pwessel
+		New 2.1.2 released.
+
 2023-05-30	esteban82
 		Restore HK and MO as countries. Issues #93 and #94.
 
