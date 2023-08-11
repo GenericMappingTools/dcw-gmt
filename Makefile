@@ -9,7 +9,7 @@
 #	dcw-gmt-<version>.zip		NetCDF file for GMT using netcdf 4 [zip]
 #
 #	Normal sequence of events would be:
-#	make build-dcw archive checksum
+#	make build-dcw archive checksums
 #
 #	Author:	Paul Wessel, SOEST, U. of Hawaii
 #
@@ -34,15 +34,18 @@ help::
 #!tar-dcw           : Create tarball of DCW for GMT distribution (deflated netCDF-4)
 #!zip-dcw           : Create zipfile of DCW for GMT distribution (deflated netCDF-4)
 #!archive           : Do both tar-dcw and zip-dcw
-#!checksum          : Compute MD5 checksum for the tar.gz file
+#!checksums         : Compute MD5 and SHA256 checksums for the tar.gz file
 #!place-dcw         : Uses scp to copy the files over to SOEST DCW ftp site
 #!place-gmt         : Uses scp to copy the files over to SOEST GMT ftp site
 #!update-dataserver : Uses scp to copy the tar ball to oceania and installs latest version
 #!fig               : Create the dcw-figure.{pdf,png} files
 #!spotless          : Clean up and remove created files of all types
-#!all               : do all of build-dcw tar-dcw zip-dcw checksum fig
+#!all               : do all of build-dcw tar-dcw zip-dcw checksums fig
 #!
-#!	Remember to change DCW_VERSION in config.mk when building a new release
+#!	Remember to change DCW_VERSION in config.mk before building a new release
+#!  Once all files are built and uploaded to the servers, release the new version
+#!  from the dcw-git repository.  Go to Releases and add a new one, upload the two files
+#!  and refresh the checksums.
 #!
 
 spotless:	clean
@@ -51,10 +54,11 @@ spotless:	clean
 clean:
 		rm -f $(TAG).log
 
-all:		build-dcw tar-dcw zip-dcw checksum fig
+all:		build-dcw tar-dcw zip-dcw checksums fig
 
-checksum:
-		md5sum $(TAG)-$(DCW_VERSION).tar.gz | awk '{printf "Update $(TAG).info with the new check sum: %s\n", $$1}'
+checksums:
+		md5sum $(TAG)-$(DCW_VERSION).tar.gz        | awk '{printf "Update $(TAG).info with the new MD5 check sum: %s\n", $$1}'
+		shasum -a 256 $(TAG)-$(DCW_VERSION).tar.gz | awk '{printf "Update $(TAG).info with the new SHA256 check sum: %s\n", $$1}'
 
 archive:	tar-dcw zip-dcw
 
