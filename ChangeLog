@@ -2,6 +2,9 @@
         Contains changes made to the data files under dcw-gmt/orig etc
 -----------------------------------------------------------------------------------------
 
+2024-06-07	esteban82
+		Add the countries of United Kingdom (England, Northern Ireland, Scotland, Wales).
+
 2024-06-06	anbj
 		Fix DE boundary east of 15E with PL.
 

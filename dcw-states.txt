@@ -108,6 +108,10 @@ CN XJ Xinjiang
 CN XZ Xizang
 CN YN Yunnan
 CN ZJ Zhejiang
+GB ENG England
+GB NIR Northern Ireland
+GB SCT Scotland
+GB WLS Wales
 IN AN Andaman and Nicobar Islands
 IN AP Andhra Pradesh
 IN AR Arunachal Pradesh
