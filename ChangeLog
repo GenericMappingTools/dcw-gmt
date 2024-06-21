@@ -2,6 +2,10 @@
         Contains changes made to the data files under dcw-gmt/orig etc
 -----------------------------------------------------------------------------------------
 
+2024-06-21	anbj
+		Update fylker of Norway (NO).
+		Source: https://kartkatalog.geonorge.no/metadata/administrative-enheter-fylker/6093c8a8-fa80-11e6-bc64-92361f002671
+
 2024-06-07	esteban82
 		Add the countries of United Kingdom (England, Northern Ireland, Scotland, Wales).
 
@@ -19,7 +23,7 @@
 		Restore HK and MO as countries. Issues #93 and #94.
 
 2022-07-12	anbj
-		Add counties of mainland Norway (NO).
+		Add fylker of Norway (NO).
 
 2022-05-20	pwessel
 		New 2.1.1 released.

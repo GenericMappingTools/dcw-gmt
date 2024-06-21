@@ -151,13 +151,17 @@ NO 03 Oslo
 NO 11 Rogaland
 NO 15 Møre og Romsdal
 NO 18 Nordland
-NO 30 Viken
+NO 31 Østfold
+NO 32 Akershus
+NO 33 Buskerud
 NO 34 Innlandet
-NO 38 Telemark og Vestfold
+NO 39 Vestfold
+NO 40 Telemark
 NO 42 Agder
 NO 46 Vestland
 NO 50 Trøndelag
-NO 54 Troms og Finnmark
+NO 55 Troms
+NO 56 Finnmark
 RU AD Adygea (Adygeya Respublika)
 RU AL Altai Republic (Altay Respublika)
 RU ALT Altai Krai (Altayskiy Kray)
