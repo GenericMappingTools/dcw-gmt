@@ -38,4 +38,5 @@ assignees: ''
 
 - Update [conda-forge feedstock](https://github.com/conda-forge/dcw-gmt-feedstock) (@seisman)
 - Update [homebrew formula](https://github.com/Homebrew/homebrew-core/blob/HEAD/Formula/gmt.rb) (@seisman)
+- Update [macports Portfile](https://github.com/macports/macports-ports/blob/master/science/dcw-gmt/Portfile) (@remkos)
 - Update the builtin dcw-gmt version in the Windows installers (@joa-quim)
