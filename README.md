@@ -25,7 +25,7 @@ and other needs. For basic background information about DCW, see the
 
 DCW-GMT is an enhancement to DCW in a few ways:
 
-1. It contains more state boundaries (the largest 8 countries and Norway are now represented).
+1. It contains more state boundaries (the largest 8 countries, Great Britain and Norway are now represented).
 2. The data have been reformatted to save space and are distributed as a single deflated netCDF-4 file.
 
 ## Download
